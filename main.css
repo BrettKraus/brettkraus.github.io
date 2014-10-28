@@ -1,7 +1,5 @@
-div a {
-  color: black;
-  display:inline-block;
-  font: bold 14px arial;
-  padding: 14px 10px;
-  text-transform: uppercase;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
