@@ -1,13 +1,9 @@
-#menu {
+.menu {
   width:500px;
   height:35px;
   font-size:11px;
   font-family:Tahoma, Geneva, sans-serif;
   font-weight:bold;
   text-align:center;
-}
-
-#menu li {
-  display:inline;
-  padding:20px;
+  color:red;
 }
