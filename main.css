@@ -28,13 +28,13 @@
   font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
-  text-align:center;
+  margin:auto;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
-  text-align:center;
+  margin:auto;
 }
 
 .learn-more {
