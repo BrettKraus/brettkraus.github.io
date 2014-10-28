@@ -17,8 +17,8 @@
   background-size: cover;
 }
 
-.jumbotron .container {
-  position: relative;
+.jumbotron .introduction {
+  position: center;
   top:100px;
 }
 
