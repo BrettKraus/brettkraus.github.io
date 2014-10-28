@@ -19,8 +19,7 @@
 
 .jumbotron .introduction {
   position: absolute;
-  top:300px;
-  left:300px;
+  top:100;
 
 }
 
@@ -29,11 +28,13 @@
   font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+  text-align:center;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+  text-align:center;
 }
 
 .learn-more {
