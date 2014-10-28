@@ -6,3 +6,8 @@
   font-weight:bold;
   text-align:center;
 }
+
+#menu li {
+  display:inline;
+  padding:20px;
+}
