@@ -18,8 +18,10 @@
 }
 
 .jumbotron .introduction {
-  position: center;
-  top:100px;
+  position: relative;
+  top:300px;
+  left:300px;
+
 }
 
 .jumbotron h1 {
