@@ -2,14 +2,19 @@ div {
 	border-radius: 0px;
 }
 
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
 #header {
 	z-index: 1;
 	position: relative;
 	width: 100%;
     margin-top: 0px;
 	height: 40px;
-	background-color: #668284;
-	margin-bottom:10px;
+	background-color: black;
+	margin-bottom:0px;
     text-align: center;
 }
 
@@ -18,7 +23,8 @@ div {
     margin-top: 0px;
     position:absolute;
     top:25%;
-    left:75%;
+    left:50%;
+    color:white;
 
 }
 
@@ -26,8 +32,47 @@ div {
   display: inline;
   list-style-type: none;
   margin: 4px;
+  color:white;
+  font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+  font-size: 12px;
 
 }
+
+#jumbotron{
+    height:400px;
+    width:100%;
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/9/90/Sunset_Marina.JPG");
+    background-size: 100%;
+}
+#jumbointro{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left:30%;
+    text-transform: uppercase;
+    font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+    color:white;
+    letter-spacing: 0.35px;
+    font-size:33px;
+}
+
+#projectshow {
+    height:30px;
+    width:100%;
+    margin:0px;
+    background-color: #FAFAFA;
+}
+
+#projectshowtxt {
+    margin-top: 5px;
+    text-align: center;
+    background-color:none;
+    color: #969696;
+    text-transform:uppercase;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size:12px;
+}
+
 
 h4 {
 	margin-left: 5px;
@@ -44,15 +89,32 @@ h4 {
 }
 
 
-.right {
+.row {
 	position: relative;
 	float: left;
 	margin-top: -10px;
 	width: 100%;
-	height: 400px;
-	background-image: url("http://imgur.com/uVWVXgq");
-  background-repeat: no-repeat;
+	height: 250px;
+	background-color: #FAFAFA;
 	margin-bottom: 0px;
+}
+
+#thumbs {
+    margin: 0 auto;
+    margin-top: 0px;
+    position:absolute;
+    top:25%;
+    left:50%;
+    color:white;
+}
+
+#thumb1 {
+  display: inline;
+  list-style-type: none;
+  margin: 1px;
+  color:white;
+  height:100px;
+  width:100px;
 }
 
 #footer {
